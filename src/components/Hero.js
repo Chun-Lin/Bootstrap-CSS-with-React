@@ -4,13 +4,13 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    <div className="jumbotron jumbotron-fluid bg-image">
-      <div className="container mt-5 hero">
-        <h1 className="display-3 ">Let's Type!</h1>
-        <p className="lead mb-5">
-          This is a typing-contest website. Type fast and correct.
+    <div className="hero-image">
+      <div className="hero-text text-center">
+        <div className="h1">Let's Type</div>
+        <p className="caption mb-5">
+          This is a typing contest. Type fast and correct to get good prize.
         </p>
-        <button className="btn-lg btn-primary">Learn More</button>
+        <button className="btn btn-lg btn-info">Learn More</button>
       </div>
     </div>
   )
