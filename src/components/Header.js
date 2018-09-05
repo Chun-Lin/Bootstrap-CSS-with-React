@@ -1,11 +1,39 @@
 import React from 'react'
-import './Header.css'
 
 const Header = () => {
   return (
-    <div className="d-flex justify-content-center align-items-center">
-      <div className="h1">Typeed</div>
-    </div>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a href="#" className="navbar-brand h1">
+        Typeed
+      </a>
+      <button class="navbar-toggler" type="button">
+        <span class="navbar-toggler-icon" />
+      </button>
+      <div className="collapse navbar-collapse">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
+            <a href="#" className="nav-link">
+              Home
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav-link">
+              About
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav-link">
+              Prize
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav-link">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   )
 }
 
