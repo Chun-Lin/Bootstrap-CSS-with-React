@@ -29,22 +29,22 @@ class Header extends React.Component {
             })}
           >
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
+              <li className="nav-item" onClick={this.handleClick}>
                 <a href="#home" className="nav-link">
                   Home
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" onClick={this.handleClick}>
                 <a href="#about" className="nav-link">
                   About
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" onClick={this.handleClick}>
                 <a href="#competitors" className="nav-link">
                   Competitors
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" onClick={this.handleClick}>
                 <a href="#contact" className="nav-link">
                   Contact
                 </a>

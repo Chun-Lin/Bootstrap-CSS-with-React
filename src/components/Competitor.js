@@ -31,7 +31,7 @@ class Competitor extends React.Component {
           <div className="row">
             {this.state.competitors.map(competitor => (
               <div className="col-md-6">
-                <div className="card">
+                <div className="card mb-3">
                   <img
                     className="card-img-top"
                     src={competitor.img}
