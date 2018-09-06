@@ -14,7 +14,7 @@ class Competitor extends React.Component {
       {
         name: 'Blue Kakaroto',
         img: 'second-competitor.jpg',
-        description: "I'm a programmer, I always be with my keyboard",
+        description: "I'm a programmer, I am always with my keyboard. Don't underestimate me!",
       },
     ],
   }
