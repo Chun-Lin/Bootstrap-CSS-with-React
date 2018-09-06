@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 import Header from './components/Header'
 import Hero from './components/Hero'
