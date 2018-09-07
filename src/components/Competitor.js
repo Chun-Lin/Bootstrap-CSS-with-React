@@ -22,31 +22,29 @@ class Competitor extends React.Component {
   }
 
   render() {
-    const { competitors } = this.state
-    console.log(competitors)
     return (
-      <ScrollableAnchor id={'competitors'}>
-        <div className="container mb-5">
+      <div className="container mb-5">
+        <ScrollableAnchor id={'competitors'}>
           <h2 className="text-center mb-3">Competitors</h2>
-          <div className="row">
-            {this.state.competitors.map(competitor => (
-              <div className="col-md-6">
-                <div className="card mb-3">
-                  <img
-                    className="card-img-top"
-                    src={competitor.img}
-                    alt="competitor"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">{competitor.name}</h5>
-                    <p className="card-text">{competitor.description}</p>
-                  </div>
+        </ScrollableAnchor>
+        <div className="row">
+          {this.state.competitors.map(competitor => (
+            <div className="col-md-6">
+              <div className="card mb-3">
+                <img
+                  className="card-img-top"
+                  src={competitor.img}
+                  alt="competitor"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">{competitor.name}</h5>
+                  <p className="card-text">{competitor.description}</p>
                 </div>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
-      </ScrollableAnchor>
+      </div>
     )
   }
 }
