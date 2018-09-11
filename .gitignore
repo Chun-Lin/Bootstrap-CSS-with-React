@@ -9,6 +9,9 @@
 # production
 /build
 
+# Circle CI
+/.circleci
+
 # misc
 .DS_Store
 .env.local
