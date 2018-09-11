@@ -39,3 +39,7 @@ jobs:
       - run: 
           name: Run Tests
           command: yarn test
+
+      - deploy: 
+          name: Deploy to Github pages
+          command: yarn deploy          
