@@ -14,7 +14,7 @@ class Header extends React.Component {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
           <a href="#home" className="navbar-brand h1">
-            Typeed
+            Typeeeeeeed
           </a>
           <button
             class="navbar-toggler"
